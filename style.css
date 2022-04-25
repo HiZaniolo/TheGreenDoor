@@ -1,0 +1,184 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box ;
+}
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.home{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./img/portada1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    color: #f2ebdc;
+}
+.home h1{
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: "Special Elite", cursive;
+}
+.home p{
+  font-size: 2rem;
+  font-weight: 250;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-home{
+  height: 3rem;
+  width: 10rem;
+  background-color: #536855;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #f2ebdc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: .1s;
+  text-align: center;
+}
+.feature{
+  font-family: "Montserrat", sans-serif;
+  color: #3b5566;
+}
+#icon{
+  height: 100px;
+  width: 100px;
+  background-color: #3b5566;
+  color: #f2ebdc;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 45px;
+  text-align: center;
+  display: inline-block;
+}
+.about{
+  font-family: "Montserrat", sans-serif;
+  color: #809682;
+}
+.gallery{
+  font-family: "Montserrat", sans-serif;
+  color: #3b5566;
+}
+.gallery img{
+  width: 285px;
+  height: 200px;
+  display: inline-block;
+  border: 1px solid white;
+  transition: transform 1s, filter 2s ease-in-out;
+}
+.gallery img:hover{
+  transform: scale(0.9);
+}
+.news{
+  background-color: #f2ebdc;
+  font-family: "Montserrat", sans-serif;
+  color: #3b5566;
+}
+.news img{
+  display: inline-block;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+.news p, a{
+  color: #3b5566;
+}
+.reserve{
+    font-family: "Montserrat", sans-serif;
+    color: #aa6f57;
+}
+.btn-primary{
+    background: #aa6f57 !important;
+    border: 2px solid #aa6f57 !important;
+    text-decoration: none;
+    color: #f2ebdc;
+    align-items: center;
+}
+.btn-primary:hover{
+    background: #d7ab99 !important;
+    border: 2px solid #d7ab99 !important;
+    text-decoration: none;
+    color: #f2ebdc;
+    align-items: center;
+}
+.table-striped{
+  font-family: "Montserrat", sans-serif;
+  color: #8e5648;
+}
+.card{
+  border: none;
+}
+.letter{
+  background-color: #809682;
+  font-family: "Montserrat", sans-serif;
+  color: #f2ebdc;
+  text-align: center;
+}
+.letter input{
+  height: 45%;
+  width: 45%;
+  background-color: #f2ebdc;
+  border: none;
+}
+.letter .fab{
+  font-size: 30px;
+  color: #f2ebdc;
+  padding: 0 20px;
+}
+.letter .btn{
+  height: 45%;
+  background-color: #536855;
+  border: none;
+  color: #f2ebdc;
+
+}
+footer{
+  background-color: #536855;
+  font-family: "Montserrat", sans-serif;
+  color: #f2ebdc;
+}
+
+.caja{
+  height: 200px;
+  width: 200px;
+  background: dodgerblue;
+  cursor: pointer;
+}
+
+.costumerReviews{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+.getReviewsButton{
+  background-color: #3b5566;
+  border: 10px solid #3b5566;
+  text-decoration: none;
+  color: #f2ebdc;
+}
+
+.getReviewsButton:hover{
+  background: #f2ebdc;
+  border: 7px solid #3b5566;
+  text-decoration: none;
+  color: #3b5566;
+}
+.displayReviews{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
